@@ -89,7 +89,7 @@ Y su valor es 99999:
 <img width="88" alt="image" src="https://user-images.githubusercontent.com/91721762/226997439-c449a667-d448-4d63-850d-b75765fd6f51.png">
 
 #### Order by
-El comando ``ORDER BY``` no sirve para ordenar un campo por orden alfabético o de mayor a menor. Podemos determinar si queremos ordenar los datos de forma ascendente con ```ASC``` o descendente ```DESC```. Se usa de la siguiente forma: 
+El comando ```ORDER BY``` no sirve para ordenar un campo por orden alfabético o de mayor a menor. Podemos determinar si queremos ordenar los datos de forma ascendente con ```ASC``` o descendente ```DESC```. Se usa de la siguiente forma: 
 
 ```SELECT * from``` nombre de la base de datos
 ```ORDER BY``` nombre del campo que queremos ordenar ```ASC/DESC```
@@ -112,3 +112,18 @@ En nuestro ejemplo seleccionamos las marcas de los coches que no están registra
 
 <img width="104" alt="Captura de pantalla 2023-03-22 a las 19 17 29" src="https://user-images.githubusercontent.com/91721764/227000038-543d10df-bec5-4e46-9b02-1ee5b1ed0462.png">
 
+---
+
+#### Operador BETWEEN y AND
+
+Con el operador between podemos seleccionar los valores que esten dentro del intervalo que queramos, por ejemplo, vamos a seleccionar la marca y el modelo de los coches que cuesten entre 50000 y 60000 euros:
+
+El codigo seria el siguiente:
+
+<img width="241" alt="image" src="https://user-images.githubusercontent.com/91721762/227000759-7f77b527-e8dc-4281-b3f5-cb50f54cedb3.png">
+
+Y el resultado es 
+
+<img width="222" alt="image" src="https://user-images.githubusercontent.com/91721762/227000873-ab5d225d-257e-4e06-8a4c-9d792ac39f55.png">
+
+---
