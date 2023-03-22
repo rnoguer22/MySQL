@@ -22,3 +22,10 @@ Y este sería una parte de nuestro resultado:
 
 <img width="517" alt="Captura de pantalla 2023-03-22 a las 18 28 56" src="https://user-images.githubusercontent.com/91721764/226988644-f52983c7-b8e6-48db-8cf5-ca9552d0a62d.png">
 
+#### Insert into
+Con la sentencia ```insert into``` insertamos en valores al final de la tabla, en el campo que especifiquemos. Si solo seleccionamos un campo con un solo valor, nos crea un nuevo registro al final con las demas celdas de dicho registro con valor nulo
+
+<img width="179" alt="image" src="https://user-images.githubusercontent.com/91721762/226990539-e54db1de-4da8-4e7a-a606-0c15ed5bb6e9.png">
+
+Se inserta al final de la base de datos, como podemos ver:
+<img width="637" alt="image" src="https://user-images.githubusercontent.com/91721762/226990807-1c3e3d87-63da-43fb-ae26-d543223dae09.png">
