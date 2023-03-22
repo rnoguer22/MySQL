@@ -37,6 +37,8 @@ Por ejemplo, nosotros hemos seleccionado el campo field3, que es el campo refere
 
 Como podemos ver, como no hemos indicado que valores añadimos en los demas campos, nos lo ha rellenado con valores nulos por defecto
 
+---
+
 #### Where
 Con la sentencia where podemos seleccionar una condicion mas especifica, por ejemplo, podemos seleccionar, dentro del campo donde se encuentra el modelo del coche, el modelo en especifico que estamos buscando
 
