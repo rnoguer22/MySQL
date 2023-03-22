@@ -77,8 +77,6 @@ Además, podemos añadir condiciones con el comado ```WHERE```. En nuestro caso 
 
 <img width="215" alt="Captura de pantalla 2023-03-22 a las 19 02 28" src="https://user-images.githubusercontent.com/91721764/226996727-94ba859e-f4bf-4797-b04c-2b608c372a39.png">
 
----
-
 #### Max
 El comando ```max``` nos devuelve el valor maximo de una tabla, de un campo de una tabla, etc.
 
@@ -90,4 +88,15 @@ Y su valor es 99999:
 
 <img width="88" alt="image" src="https://user-images.githubusercontent.com/91721762/226997439-c449a667-d448-4d63-850d-b75765fd6f51.png">
 
----
+### Order by
+El comando ``ORDER BY``` no sirve para ordenar un campo por orden alfabético o de mayor a menor. Podemos determinar si queremos ordenar los datos de forma ascendente con ```ASC``` o descendente ```DESC```. Se usa de la siguiente forma: 
+
+```SELECT * from``` nombre de la base de datos
+```ORDER BY``` nombre del campo que queremos ordenar ```ASC/DESC```
+
+EN nuestro ejemplo ordenamos los coches por provincias:
+
+<img width="225" alt="Captura de pantalla 2023-03-22 a las 19 05 19" src="https://user-images.githubusercontent.com/91721764/226998394-6e596742-0808-439c-a22c-d11926c1c5be.png">
+
+<img width="357" alt="Captura de pantalla 2023-03-22 a las 19 10 29" src="https://user-images.githubusercontent.com/91721764/226998501-6b177f1f-1136-48d0-922f-e3cdd7a3ec84.png">
+
