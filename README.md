@@ -100,3 +100,15 @@ EN nuestro ejemplo ordenamos los coches por provincias:
 
 <img width="357" alt="Captura de pantalla 2023-03-22 a las 19 10 29" src="https://user-images.githubusercontent.com/91721764/226998501-6b177f1f-1136-48d0-922f-e3cdd7a3ec84.png">
 
+#### Isnull
+El comando ```ISNULL``` podemos localizar los valores nulos de diferentes campos. Se usa de la siguiente forma: 
+
+```SELECT``` nombre del campo que queremos seleccionar
+```WHERE``` nombre del campo condicion ```ISNULL```
+
+En nuestro ejemplo seleccionamos las marcas de los coches que no están registrados en ninguna provincia:
+
+<img width="240" alt="Captura de pantalla 2023-03-22 a las 19 14 09" src="https://user-images.githubusercontent.com/91721764/226999964-14f6b33c-ce56-4863-aac6-7cf777905ebe.png">
+
+<img width="104" alt="Captura de pantalla 2023-03-22 a las 19 17 29" src="https://user-images.githubusercontent.com/91721764/227000038-543d10df-bec5-4e46-9b02-1ee5b1ed0462.png">
+
