@@ -12,11 +12,16 @@ Pelayo Huerta Mijares
 ---
 
 ## ÍNDICE
--
-
-
-
-
+- [Select](#1)
+- [Select into](#2)
+- [Where](#3)
+- [Delete](#4)
+- [Update](#5)
+- [Max](#6)
+- [Order by](#7)
+- [Isnull](#8)
+- [Operador Between y and](#9)
+- [Drop table](#10)
 
 ## SENTENCIAS:
 
