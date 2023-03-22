@@ -88,7 +88,7 @@ Y su valor es 99999:
 
 <img width="88" alt="image" src="https://user-images.githubusercontent.com/91721762/226997439-c449a667-d448-4d63-850d-b75765fd6f51.png">
 
-### Order by
+#### Order by
 El comando ``ORDER BY``` no sirve para ordenar un campo por orden alfabético o de mayor a menor. Podemos determinar si queremos ordenar los datos de forma ascendente con ```ASC``` o descendente ```DESC```. Se usa de la siguiente forma: 
 
 ```SELECT * from``` nombre de la base de datos
