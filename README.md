@@ -16,6 +16,7 @@ Pelayo Huerta Mijares
 ---
 
 #### Select
+
 Con la sentecia select podemos seleccionar elementos de diferentes campos, pudiendo así hacer un filtrado de datos. El comando se usa de la siguiente manera : ```SELECT``` el nombre de los campos que queremos seleccionar ```from``` el nombre de nuestra base de datos. En el ejemplo hemos seleccionado el nombre de la marca y el modelo de cada coche:
 
 <img width="352" alt="Captura de pantalla 2023-03-22 a las 18 27 38" src="https://user-images.githubusercontent.com/91721764/226988434-7aaebb91-252b-44ee-80fc-67302da92d64.png">
@@ -27,6 +28,7 @@ Y este sería una parte de nuestro resultado:
 ---
 
 #### Select into
+
 Con la sentencia ```select into``` podemos seleccionar una tabla de una base de datos, y hacer lo que queramos con dicha seleccion
 
 <img width="191" alt="image" src="https://user-images.githubusercontent.com/91721762/226993199-f04595d0-fc4e-4487-ad5c-0a38f555da5c.png">
@@ -40,6 +42,7 @@ Como podemos ver, como no hemos indicado que valores añadimos en los demas camp
 ---
 
 #### Where
+
 Con la sentencia where podemos seleccionar una condicion mas especifica, por ejemplo, podemos seleccionar, dentro del campo donde se encuentra el modelo del coche, el modelo en especifico que estamos buscando
 
 <img width="295" alt="image" src="https://user-images.githubusercontent.com/91721762/226992416-a162d33a-a03f-4b9a-a913-376a362296e0.png">
@@ -51,6 +54,7 @@ Por ejemplo, nosotros, que somos amantes de los Ford Mustang, estamos buscando l
 ---
 
 #### Delete
+
 Con la sentencia delete podemos eliminar campos o registros aplicando determinadas condiciones. Se usa de la siguiente forma: ```DELETE from``` nombre de la base de datos ```where``` una condición. En nuestro ejemplo eliminamos todos los coches de la marca Citroen:
 
 <img width="388" alt="Captura de pantalla 2023-03-22 a las 18 35 56" src="https://user-images.githubusercontent.com/91721764/226991428-0ff04541-8615-4941-a4a7-15776a71e1e1.png">
@@ -60,6 +64,7 @@ Ahora si en nuestra base de datos buscamos en el campo de marcas Citroen, vemos 
 <img width="947" alt="Captura de pantalla 2023-03-22 a las 18 41 56" src="https://user-images.githubusercontent.com/91721764/226991848-7a177feb-626d-44f4-ba9c-79358ceb14c9.png">
 
 #### Update
+
 Con la sentencia update podemos actualizar el valor de determinadas celdas. Se usa de la siguiente forma: 
 ```UPDATE```el nombre de la base de datos
 ```SET```el campo que queremos cambiar = nuevo valor
@@ -78,6 +83,7 @@ Además, podemos añadir condiciones con el comado ```WHERE```. En nuestro caso 
 <img width="215" alt="Captura de pantalla 2023-03-22 a las 19 02 28" src="https://user-images.githubusercontent.com/91721764/226996727-94ba859e-f4bf-4797-b04c-2b608c372a39.png">
 
 #### Max
+
 El comando ```max``` nos devuelve el valor maximo de una tabla, de un campo de una tabla, etc.
 
 Por ejemplo, escojamos el vehiculo con el precio mas alto:
@@ -89,6 +95,7 @@ Y su valor es 99999:
 <img width="88" alt="image" src="https://user-images.githubusercontent.com/91721762/226997439-c449a667-d448-4d63-850d-b75765fd6f51.png">
 
 #### Order by
+
 El comando ```ORDER BY``` no sirve para ordenar un campo por orden alfabético o de mayor a menor. Podemos determinar si queremos ordenar los datos de forma ascendente con ```ASC``` o descendente ```DESC```. Se usa de la siguiente forma: 
 
 ```SELECT * from``` nombre de la base de datos
@@ -101,6 +108,7 @@ EN nuestro ejemplo ordenamos los coches por provincias:
 <img width="357" alt="Captura de pantalla 2023-03-22 a las 19 10 29" src="https://user-images.githubusercontent.com/91721764/226998501-6b177f1f-1136-48d0-922f-e3cdd7a3ec84.png">
 
 #### Isnull
+
 El comando ```ISNULL``` podemos localizar los valores nulos de diferentes campos. Se usa de la siguiente forma: 
 
 ```SELECT``` nombre del campo que queremos seleccionar
@@ -116,7 +124,7 @@ En nuestro ejemplo seleccionamos las marcas de los coches que no están registra
 
 #### Operador BETWEEN y AND
 
-Con el operador between podemos seleccionar los valores que esten dentro del intervalo que queramos, por ejemplo, vamos a seleccionar la marca y el modelo de los coches que cuesten entre 50000 y 60000 euros:
+Con el operador ```BETWEEN``` podemos seleccionar los valores que esten dentro del intervalo que queramos, por ejemplo, vamos a seleccionar la marca y el modelo de los coches que cuesten entre 50000 y 60000 euros:
 
 El codigo seria el siguiente:
 
@@ -127,3 +135,14 @@ Y el resultado es
 <img width="222" alt="image" src="https://user-images.githubusercontent.com/91721762/227000873-ab5d225d-257e-4e06-8a4c-9d792ac39f55.png">
 
 ---
+
+#### Drop table
+
+Con el operador ```DROP TABLE``` eliminamos todos los datos almacenados en nuestra tabla. Se usa de la siguiente forma: ```DROP TABLE``` nombre de la tabla. 
+
+<img width="228" alt="Captura de pantalla 2023-03-22 a las 19 20 21" src="https://user-images.githubusercontent.com/91721764/227001377-d719441b-83a6-4b20-a28e-2761cb7609c5.png">
+
+Y vemos que efectivamente eliminamos la tabla completamente:
+
+<img width="397" alt="Captura de pantalla 2023-03-22 a las 19 20 33" src="https://user-images.githubusercontent.com/91721764/227001488-fb65b25d-a046-4877-bcf5-e8e984caf661.png">
+
