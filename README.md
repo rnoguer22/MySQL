@@ -59,6 +59,25 @@ Ahora si en nuestra base de datos buscamos en el campo de marcas Citroen, vemos 
 
 <img width="947" alt="Captura de pantalla 2023-03-22 a las 18 41 56" src="https://user-images.githubusercontent.com/91721764/226991848-7a177feb-626d-44f4-ba9c-79358ceb14c9.png">
 
+#### Update
+Con la sentencia update podemos actualizar el valor de determinadas celdas. Se usa de la siguiente forma: 
+```UPDATE```el nombre de la base de datos
+```SET```el campo que queremos cambiar = nuevo valor
+En nuestro ejemplo cambiamos el color de todos los coches a dorado:
+
+<img width="200" alt="Captura de pantalla 2023-03-22 a las 18 52 29" src="https://user-images.githubusercontent.com/91721764/226995422-5a2cb569-6c8f-45eb-b43e-39d4e8791e76.png">
+
+Y este es el resultado:
+
+<img width="382" alt="Captura de pantalla 2023-03-22 a las 18 52 18" src="https://user-images.githubusercontent.com/91721764/226995498-7f5d2c7e-f86a-4c99-bb01-8605f023594b.png">
+
+Además, podemos añadir condiciones con el comado ```WHERE```. En nuestro caso pintamos a todos los Ford de azul:
+
+<img width="260" alt="Captura de pantalla 2023-03-22 a las 18 58 45" src="https://user-images.githubusercontent.com/91721764/226995886-79dd4da8-a3a9-4c0c-b902-614e374ade16.png">
+
+<img width="215" alt="Captura de pantalla 2023-03-22 a las 19 02 28" src="https://user-images.githubusercontent.com/91721764/226996727-94ba859e-f4bf-4797-b04c-2b608c372a39.png">
+
+
 
 
 
