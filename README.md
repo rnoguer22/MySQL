@@ -77,8 +77,17 @@ Además, podemos añadir condiciones con el comado ```WHERE```. En nuestro caso 
 
 <img width="215" alt="Captura de pantalla 2023-03-22 a las 19 02 28" src="https://user-images.githubusercontent.com/91721764/226996727-94ba859e-f4bf-4797-b04c-2b608c372a39.png">
 
+---
 
+#### Max
+El comando ```max``` nos devuelve el valor maximo de una tabla, de un campo de una tabla, etc.
 
+Por ejemplo, escojamos el vehiculo con el precio mas alto:
 
+<img width="143" alt="image" src="https://user-images.githubusercontent.com/91721762/226996995-6c7fb462-0d20-48e8-a9bb-55404bf2d84b.png">
 
+Y su valor es 99999:
 
+<img width="88" alt="image" src="https://user-images.githubusercontent.com/91721762/226997439-c449a667-d448-4d63-850d-b75765fd6f51.png">
+
+---
